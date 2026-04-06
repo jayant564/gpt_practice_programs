@@ -3,7 +3,8 @@
 #     lst.append(item)
 #     return lst
 
-def add_item(item, lst=[]):
-    for i in lst:
-        lst.append(item)
+def add_item(item, lst=None):
+    if lst is None:
+        lst = []
+    lst.append(item)
     return lst
