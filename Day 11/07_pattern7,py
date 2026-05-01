@@ -1,0 +1,8 @@
+# Print numbers:
+
+# 12345
+# 12345
+# 12345
+
+for i in range(3):
+    print("12345")
